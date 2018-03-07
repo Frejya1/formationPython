@@ -1,0 +1,41 @@
+#Rappel concernant GIT
+
+#Configuration après installation
+git config --global userName "pseudo"
+git config --global userEmail "email"
+
+#Initialisation d'un repo (inutile si création sur GitHUB)
+cd Bureau/formationPython
+git init
+
+#Création du dépôt GitHUB
+https://github.com/Frejya11/formationPython
+
+#Téléchargement du dépôt sur le PC
+git clone https://github.com/Frejya1/formationPython.git
+
+#Modification de l'url HTTPS en SSH (clé publique enregistré sur mon compte gitHub, cela permet de ne plus taper le mot de passe pour les push)
+git remote -v
+git remote set-url origin git@github.com:Frejya1/formationPython.git
+
+#Push sur GitHub des modifications
+git push origin master
+
+#Récupération des dernieres modifications PULL
+git pull origin master
+
+#Ajout de fichier(s) au projet à l'index
+git add rappelGit.txt
+git add .
+
+#Enregistrement des modifications Commit
+git commit -m "Ajout du premier fichier rappelGit.txt
+
+#Action de Maj index (pour fichiers déja existant) + commit
+git commit -a -m "Mon message de commit"
+
+#Accéder au logs des commit 
+git log
+
+#Accès à un commit précédent
+git checkout SHADuCommit
