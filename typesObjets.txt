@@ -1,0 +1,18 @@
+#Types d'objets
+integer = 1 #La variable integer devient un entier avec 1 en valeur
+
+float = 1.3 #La variable float devient un entier avec 1,3 en en valeur (attention dan le code il faut remplacer la "," par un "."
+
+strings = "Voici des guillemets pris en compte 'blabla' et des guillemts \"échapé\"" #La variable strings devient une chaine de charactères
+
+myOtherStrings = """Ma ligne commence ici...
+... et continue ici
+..."""                                            #Une autre chaine de charactères cette fois sur plusieurs lignes
+
+list = ["Chaine de charactères", integer, float, 23, 12.21] #Une liste qui comprend une chaine de charactères, deux variable, un entier, et un décimal
+
+tuple = ("Du texte", 23, 12.21) #Un tuple est une liste dont les élements sont "figé"
+
+
+dictionary = {"un":"one", "deux":"two", "trois":"three"} #Exemple d'une variable dictionnaire inspiré d'un dico français/anglais
+

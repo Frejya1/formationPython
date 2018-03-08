@@ -1,0 +1,41 @@
+#La commande suivante permet de pouvoir utiliser les accents
+# -*- coding: utf8 -*-
+
+#Connaitre le type d'un objet
+type(myObject)
+
+#Afficher qqchose
+print(myValue)
+
+#Demander une saisie utilisateur
+input('Tapez A pou continuer ou X pour quitter')
+
+
+
+#La condition si
+if user_answer == "B":
+   #do something
+elif user_answer == "O":
+   #do something
+else:
+   #do something
+
+#les fonctions
+def maFonction():
+   #action de la fonction
+   return "program is over"     #Permet de retourner une valeur dans la fonction
+   pass
+
+#Les boucles While (tant que la condition est vraie
+While userAnswer != 'B':
+   print(maFonction(parametre))
+
+#Les boucles for (création d'une variable et énumération d'une seconde variable dans la premiere créé)
+liste = [1,5,10,15,20,25]
+for i in liste:
+   if i > 15:
+      break
+   print i
+
+for i in range(0,100):
+   print i

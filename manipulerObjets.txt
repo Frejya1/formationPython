@@ -1,0 +1,65 @@
+#Les chaines de charactères
+#Transformer une chaine en liste
+"hello world".split()                                 #résultat = ['hello','world']
+
+#supprimer du texte au début et à la fin
+"          texte avec espaces          ".strip()      #resultat = "texte avec des espaces"
+
+#Premiere lettre en majuscule
+"hello world".capitalize()                            #resulat = "Hello World"
+
+#Tout en majuscule ou minuscule
+"HellO WorlD".upper()                                 #resulat = "HELLO WORLD"
+"HellO WorlD".lower()                                 #resulat = "hello world"
+
+#ecrire un texte a "trou" format
+"ce texte intitulé {} commporte {} erreures".format("Texte1","0")
+
+
+#Les nombres
+#Vérifier si un nombre est entier ou décimale
+(2.5).is_integer()                                    #resultat = False
+
+#Les listes
+#Connaitre le nombre d'éléments dans une liste
+len(myList)
+
+#Acceder à un éléments de la liste (le 4eme)
+myList[3]
+
+#Acceder au dernier élément d'une liste
+myList[-1]
+
+#connaitre l'index d'un éléments d'une liste
+myList.index("babar")
+
+#ajouter un éléments à la fin de la liste
+myList.append("Mowgli")
+
+#ajouter un éléments à un index donné (3eme place index 4)
+characters.insert(4, "Balou")
+
+#Modifier un élément
+myList[2]= "La Fée Clochette"
+
+#Supprimer un éléments de la liste (le parametre correspond à l'élément à supprimer)
+myList.pop()                      #supprime le dernier élement et renvoi sa valeur
+myList.remove()                   #Supprime le denier éléments sans renvoyer de valeur
+
+
+#Les dictionnaires
+myDictionary={"Name" : "Yoann", "Age" : "7"}
+
+#Connaitre le nombre d'éléments dans un dictionnaire
+len(myDictionary)
+
+#Acceder à un éléments du dictionnaire
+myDictionary["Name"]
+
+#Modifier un élément
+myDictionary["Name"]= "Sarah"
+myctionnary.update({"Name" : ["Yoann", "Sarah"], "Age" : [7,13]})
+
+#Supprimer une clée
+myictionary.pop("Name")
+
